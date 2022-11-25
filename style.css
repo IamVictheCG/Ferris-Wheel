@@ -87,4 +87,22 @@
 .cabin:nth-of-type(6) {
   top: 7%;
   right: 17%;
+}
+
+@-webkit-keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=style.css.map */
